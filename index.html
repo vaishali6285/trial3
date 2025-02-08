@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal Day</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/005/375/342/non_2x/happy-woman-embracing-soldier-after-returning-home-military-man-or-soldier-dressed-in-camouflage-uniform-hugging-wife-long-awaited-meeting-couple-reunion-isolated-on-white-vector.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background for readability */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+            max-width: 90%;
+            width: 500px;
+        }
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+            color: #ff4d4d;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Added shadow for better contrast */
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: white; /* Ensured text is white for visibility */
+        }
+        .button, .secret-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 18px;
+            color: white;
+            background: #ff4d4d;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+        }
+        .button:hover, .secret-button:hover {
+            background: #ff1a1a;
+            transform: scale(1.1);
+        }
+        #secretMessage {
+            display: none;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+    </style>
+    <script>
+        function showMessage() {
+            alert("Love you too, Totu! ❤️");
+        }
+        function showSecretMessage() {
+            document.getElementById("secretMessage").style.display = "block";
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Will You Be Mine? ❤</h1>
+        <p>Dear Totu,</p>
+        <p>From the moment we met, you captured my heart. Your smile is my favorite surprise, and life without you feels incomplete.</p>
+        <p>So, here’s my proposal: Let’s build a lifetime of love and happiness together. You are my greatest adventure.</p>
+        <p>Will you be my partner in this beautiful journey? 💕</p>
+        <a href="#" class="button" onclick="showMessage()">Yes, I Do! 💍</a>
+        <button class="secret-button" onclick="showSecretMessage()">Click for a Secret Message 💌</button>
+        <div id="secretMessage">
+            <p><strong>Hidden Message: Love You Forever 💖</strong></p>
+            <p><strong>Operation: Love</strong><br>
+            Dear Totu,<br>
+            From the moment we met, my heart's defenses were overrun by your charm. You've become my top-secret mission, and I've been a willing captive of your love ever since.<br>
+            Your smile is my favorite kind of surprise attack 😊. I've scouted my feelings and found that life without you is like a drill without a break—endless and exhausting.<br>
+            So, here's my plan: Let's form an unbreakable team, sharing love and laughter. Will you be my partner in this lifelong adventure?<br>
+            In all honesty, Kaushal, your dedication and courage inspire me every day. The distance between us is tough, but my love for you is stronger than any obstacle ❤.<br>
+            I dream of the day when I can hold you close and never let go. Your strength gives me strength, and being apart has shown me how much I truly care for you.<br>
+            I promise to stand by you through every challenge, to be your safe place, and to cherish the love we share.<br>
+            So, what do you say? Shall we embark on this mission together, hand in hand?<br>
+            Awaiting your response,<br>
+            Kanjr</p>
+        </div>
+    </div>
+</body>
+</html>
+
